@@ -11,7 +11,7 @@ logging:
             seata: info
 mybatis:
     mapperLocations: classpath:mapper/*.xml
-    typeAliasesPackage: io.seata.sample.entity
+    typeAliasesPackage: com.fly.demo.entity
 server:
     port: 8181
 spring:

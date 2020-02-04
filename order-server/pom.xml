@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>io.seata.sample</groupId>
-		<artifactId>springcloud-eureka-feign-mybatis-seata</artifactId>
+		<groupId>com.fly.demo</groupId>
+		<artifactId>springcloud-seata</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<groupId>io.seata.sample</groupId>
+	<groupId>com.fly.demo</groupId>
 	<artifactId>order-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>order-server</name>

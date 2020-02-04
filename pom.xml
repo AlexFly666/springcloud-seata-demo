@@ -9,13 +9,13 @@
 		<relativePath/>
 	</parent>
 
-	<groupId>io.seata.sample</groupId>
-	<artifactId>springcloud-eureka-feign-mybatis-seata</artifactId>
+	<groupId>com.fly.demo</groupId>
+	<artifactId>springcloud-seata</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 
-	<name>springcloud-eureka-feign-mybatis-seata</name>
+	<name>springcloud-seata</name>
 	<description>springcloud seata demo</description>
 
 	<!--模块-->

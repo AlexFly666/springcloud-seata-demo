@@ -1,4 +1,4 @@
-package io.seata.sample;
+package com.fly.demo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

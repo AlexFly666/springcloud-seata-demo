@@ -277,7 +277,7 @@ config {
 ```java
 // 在启动类中取消数据源的自动创建
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
-@MapperScan("io.seata.sample.dao")
+@MapperScan("com.fly.demo.dao")
 @EnableDiscoveryClient
 @EnableFeignClients
 public class OrderServerApplication {

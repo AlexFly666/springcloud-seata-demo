@@ -6,7 +6,7 @@ import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 /**
- * @author IT云清
+ * @author 王延飞
  */
 @Repository
 public interface OrderDao {

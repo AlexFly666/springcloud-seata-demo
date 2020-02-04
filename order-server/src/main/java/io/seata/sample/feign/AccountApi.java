@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**
- * @author IT云清
+ * @author 王延飞
  */
 @FeignClient(value = "account-server")
 public interface AccountApi {

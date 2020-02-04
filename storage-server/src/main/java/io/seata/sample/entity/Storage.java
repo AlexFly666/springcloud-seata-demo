@@ -3,7 +3,7 @@ package io.seata.sample.entity;
 import lombok.Data;
 
 /**
- * @author IT云清
+ * @author 王延飞
  */
 @Data
 public class Storage {

@@ -12,7 +12,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * @author IT云清
+ * @Title: 订单业务实现类
+ * @ClassName: io.seata.sample.service.OrderServiceImpl.java
+ * @Description: 创建订单->调用库存服务扣减库存->调用账户服务扣减账户余额->修改订单状态
+ *
+ * @Copyright 2016-2019 谐云科技 - Powered By 研发中心
+ * @author: 王延飞
+ * @date:  2020/2/4 20:20
+ * @version V1.0
  */
 @Service("orderServiceImpl")
 public class OrderServiceImpl implements OrderService{

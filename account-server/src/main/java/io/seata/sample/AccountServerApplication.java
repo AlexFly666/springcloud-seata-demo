@@ -9,8 +9,9 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * 账户服务
- * @author wangzhongxiang
+ * @author 王延飞
  */
+// 在启动类中取消数据源的自动创建
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
 @MapperScan("io.seata.sample.dao")
 @EnableDiscoveryClient

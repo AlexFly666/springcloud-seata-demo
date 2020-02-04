@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**
- * @author IT云清
+ * @author 王延飞
  */
 @FeignClient(value = "storage-server")
 public interface StorageApi {

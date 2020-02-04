@@ -1,3 +1,4 @@
+# 服务注册中心
 eureka:
     instance:
         hostname: localhost
@@ -5,13 +6,16 @@ eureka:
     client:
         serviceUrl:
             defaultZone: http://${eureka.instance.hostname}:8761/eureka/
+# 服务间调用
 feign:
     hystrix:
         enabled: false
+# 日志
 logging:
     level:
         io:
             seata: info
+# 数据持久层
 mybatis:
     mapperLocations: classpath:mapper/*.xml
     typeAliasesPackage: io.seata.sample.entity
@@ -23,9 +27,10 @@ spring:
     cloud:
         alibaba:
             seata:
+               # 事务组，seata server，seata client都要保持一致
                 tx-service-group: fsp_tx_group
     datasource:
         driver-class-name: com.mysql.jdbc.Driver
-        password: 14789632
-        url: jdbc:mysql://116.62.62.26/seat-order
+        password: root123#
+        url: jdbc:mysql://localhost:3306/seata_order
         username: root

@@ -3,7 +3,7 @@ package io.seata.sample.service;
 import java.math.BigDecimal;
 
 /**
- * @author IT云清
+ * @author 王延飞
  */
 public interface AccountService {
 

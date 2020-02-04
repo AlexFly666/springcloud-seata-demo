@@ -1,7 +1,7 @@
 package io.seata.sample.service;
 
 /**
- * @author IT云清
+ * @author 王延飞
  */
 public interface StorageService {
 

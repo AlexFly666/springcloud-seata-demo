@@ -4,7 +4,7 @@ import io.seata.sample.entity.Order;
 import java.math.BigDecimal;
 
 /**
- * @author IT云清
+ * @author 王延飞
  */
 public interface OrderService {
 

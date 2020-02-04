@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * @author IT云清
+ * @author 王延飞
  */
 @Service("storageServiceImpl")
 public class StorageServiceImpl implements StorageService {

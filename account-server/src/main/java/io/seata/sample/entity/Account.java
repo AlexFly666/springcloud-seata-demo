@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import lombok.Data;
 
 /**
- * @author IT云清
+ * @author 王延飞
  */
 @Data
 public class Account {

@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import org.apache.ibatis.annotations.Param;
 
 /**
- * @author IT云清
+ * @author 王延飞
  */
 public interface AccountDao {
 
